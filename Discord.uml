@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_pJIM0CSXEe2gzpeO-gm26w" name="Discord">
+    <eAnnotations xmi:id="_y7dpkCSXEe2gzpeO-gm26w" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_y7dpkSSXEe2gzpeO-gm26w" source="codegen">
+        <details xmi:id="_y7dpkiSXEe2gzpeO-gm26w" key="codegenDirectory" value="/Discord/src"/>
+        <details xmi:id="_zfKzkCSXEe2gzpeO-gm26w" key="AssociatedSourceCode" value="/Discord/src/application/ImagesUsers.java;3009366563/1;/Discord/src/application/PanelesScroll.java;512311854/1;/Discord/src/application/Users.java;313489879/1;/Discord/src/application/WinChat.java;3311692573/1;/Discord/src/application/WinLogin.java;778196494/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_y7DZ4CSXEe2gzpeO-gm26w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_y7GdMCSXEe2gzpeO-gm26w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_y7HEQCSXEe2gzpeO-gm26w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_y7HEQSSXEe2gzpeO-gm26w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_y7HEQiSXEe2gzpeO-gm26w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_y7HEQySXEe2gzpeO-gm26w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_y7HERCSXEe2gzpeO-gm26w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_y7HERSSXEe2gzpeO-gm26w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_y7HrUCSXEe2gzpeO-gm26w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_y7KuoCSXEe2gzpeO-gm26w" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_y7KuoSSXEe2gzpeO-gm26w" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_VEKCACTsEe2iSKMJvX8wZw" name="Map">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_VFPAESTsEe2iSKMJvX8wZw" name="Entry"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_y79Y0CSXEe2gzpeO-gm26w" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_y7_OACSXEe2gzpeO-gm26w" name="List"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_VFOZACTsEe2iSKMJvX8wZw" name="Map"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_VFPnISTsEe2iSKMJvX8wZw" name="TreeMap"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_y7LVsCSXEe2gzpeO-gm26w" name="javafx">
+      <packagedElement xmi:type="uml:Package" xmi:id="_y7LVsSSXEe2gzpeO-gm26w" name="scene">
+        <packagedElement xmi:type="uml:Package" xmi:id="_y7LVsiSXEe2gzpeO-gm26w" name="effect">
+          <packagedElement xmi:type="uml:Class" xmi:id="_y8AcISSXEe2gzpeO-gm26w" name="DropShadow"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_y7LVsySXEe2gzpeO-gm26w" name="image">
+          <packagedElement xmi:type="uml:Class" xmi:id="_y8BqQSSXEe2gzpeO-gm26w" name="Image"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_TnHcQSTsEe2iSKMJvX8wZw" name="ImageView"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_y7LVtCSXEe2gzpeO-gm26w" name="paint">
+          <packagedElement xmi:type="uml:Class" xmi:id="_y8CRUSSXEe2gzpeO-gm26w" name="Color"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_y8C4YSSXEe2gzpeO-gm26w" name="ImagePattern"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_y7L8wCSXEe2gzpeO-gm26w" name="shape">
+          <packagedElement xmi:type="uml:Class" xmi:id="_y8DfcSSXEe2gzpeO-gm26w" name="Circle"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_TmDFQSTsEe2iSKMJvX8wZw" name="control">
+          <packagedElement xmi:type="uml:Package" xmi:id="_TmDFQiTsEe2iSKMJvX8wZw" name="ScrollPane">
+            <packagedElement xmi:type="uml:Enumeration" xmi:id="_TnG1MSTsEe2iSKMJvX8wZw" name="ScrollBarPolicy"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_TnGOIiTsEe2iSKMJvX8wZw" name="ScrollPane"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_WRn6sCTsEe2iSKMJvX8wZw" name="Button"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_WRohwSTsEe2iSKMJvX8wZw" name="Label"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_WRpI0STsEe2iSKMJvX8wZw" name="TextField"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_YmTTEiTsEe2iSKMJvX8wZw" name="PasswordField"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_TmDsUCTsEe2iSKMJvX8wZw" name="layout">
+          <packagedElement xmi:type="uml:Class" xmi:id="_TnIqYSTsEe2iSKMJvX8wZw" name="FlowPane"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_WRpv4STsEe2iSKMJvX8wZw" name="HBox"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_TnGOICTsEe2iSKMJvX8wZw" name="Node"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_WQerMCTsEe2iSKMJvX8wZw" name="text">
+          <packagedElement xmi:type="uml:Class" xmi:id="_WRqW8STsEe2iSKMJvX8wZw" name="Font"/>
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_WRq-ASTsEe2iSKMJvX8wZw" name="FontWeight"/>
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_WRq-AyTsEe2iSKMJvX8wZw" name="TextAlignment"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_YmTTECTsEe2iSKMJvX8wZw" name="Scene"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_TmB3ICTsEe2iSKMJvX8wZw" name="beans">
+        <packagedElement xmi:type="uml:Package" xmi:id="_TmDFQCTsEe2iSKMJvX8wZw" name="value">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_TnFAACTsEe2iSKMJvX8wZw" name="ChangeListener"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_TnFnESTsEe2iSKMJvX8wZw" name="ObservableValue"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_TnDx4CTsEe2iSKMJvX8wZw" name="InvalidationListener"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_WQddECTsEe2iSKMJvX8wZw" name="geometry">
+        <packagedElement xmi:type="uml:Class" xmi:id="_WRmFgiTsEe2iSKMJvX8wZw" name="Insets"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_WRnToCTsEe2iSKMJvX8wZw" name="Pos"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_YlxuoCTsEe2iSKMJvX8wZw" name="event">
+        <packagedElement xmi:type="uml:Class" xmi:id="_YmSE8CTsEe2iSKMJvX8wZw" name="ActionEvent"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_YmSsASTsEe2iSKMJvX8wZw" name="EventHandler"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_y7QOMCSXEe2gzpeO-gm26w" name="application">
+      <packagedElement xmi:type="uml:Class" xmi:id="_y7VtwCSXEe2gzpeO-gm26w" name="ImagesUsers">
+        <ownedAttribute xmi:id="_y8Hw4CSXEe2gzpeO-gm26w" name="imagenes" visibility="private" type="_y8BqQSSXEe2gzpeO-gm26w" isOrdered="true" association="_y8T-ICSXEe2gzpeO-gm26w">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y8Hw4SSXEe2gzpeO-gm26w" value="*"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_y8Hw4iSXEe2gzpeO-gm26w" value="new ArrayList&lt;>()"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_y8IX8SSXEe2gzpeO-gm26w" name="imgCircle" type="_y8DfcSSXEe2gzpeO-gm26w" isReadOnly="true" association="_y8UlMSSXEe2gzpeO-gm26w"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_y8N3gCSXEe2gzpeO-gm26w" name="imagenesUser" specification="_y7jJICSXEe2gzpeO-gm26w">
+          <ownedParameter xmi:id="_y8N3gSSXEe2gzpeO-gm26w" type="_y8BqQSSXEe2gzpeO-gm26w" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y8N3giSXEe2gzpeO-gm26w" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>imagenes.add(new Image(&quot;file:ft1.jpg&quot;));&#xD;
+		imagenes.add(new Image(&quot;file:ft2.jpg&quot;));&#xD;
+		imagenes.add(new Image(&quot;file:ft3.jpg&quot;));&#xD;
+		imagenes.add(new Image(&quot;file:ft4.jpg&quot;));&#xD;
+		imagenes.add(new Image(&quot;file:ft5.jpg&quot;));&#xD;
+		imagenes.add(new Image(&quot;file:ft6.jpg&quot;));&#xD;
+		imagenes.add(new Image(&quot;file:ft7.jpg&quot;));&#xD;
+		imagenes.add(new Image(&quot;file:ft8.jpg&quot;));&#xD;
+		imagenes.add(new Image(&quot;file:ft9.jpg&quot;));&#xD;
+		imagenes.add(new Image(&quot;file:ft10.jpg&quot;));&#xD;
+		imagenes.add(new Image(&quot;file:ft11.jpg&quot;));&#xD;
+		imagenes.add(new Image(&quot;file:ft12.jpg&quot;));&#xD;
+		imagenes.add(new Image(&quot;file:ft13.jpg&quot;));&#xD;
+		&#xD;
+		&#xD;
+		return imagenes;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_y8SwACSXEe2gzpeO-gm26w" name="imgCircular" specification="_y8HJ0CSXEe2gzpeO-gm26w">
+          <ownedParameter xmi:id="_y8SwASSXEe2gzpeO-gm26w" name="img" type="_y8BqQSSXEe2gzpeO-gm26w"/>
+          <language>java</language>
+          <body>imgCircle = new Circle(30);&#xD;
+		imgCircle.setStroke(Color.TRANSPARENT);&#xD;
+		imgCircle.setEffect(new DropShadow(+2d, 0d, +2d, Color.DARKSEAGREEN));&#xD;
+		imgCircle.setFill(new ImagePattern(img));			        &#xD;
+		imgCircle.setSmooth(true);&#xD;
+		&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_y7fewCSXEe2gzpeO-gm26w" name="ImagesUsers">
+          <eAnnotations xmi:id="_y7gF0CSXEe2gzpeO-gm26w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_y7gF0SSXEe2gzpeO-gm26w" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_y7iiECSXEe2gzpeO-gm26w" type="_y7VtwCSXEe2gzpeO-gm26w" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_y7jJICSXEe2gzpeO-gm26w" name="imagenesUser" method="_y8N3gCSXEe2gzpeO-gm26w">
+          <ownedParameter xmi:id="_y7jJISSXEe2gzpeO-gm26w" type="_y8BqQSSXEe2gzpeO-gm26w" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y7jJIiSXEe2gzpeO-gm26w" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_y8HJ0CSXEe2gzpeO-gm26w" name="imgCircular" method="_y8SwACSXEe2gzpeO-gm26w">
+          <ownedParameter xmi:id="_y8HJ0SSXEe2gzpeO-gm26w" name="img" type="_y8BqQSSXEe2gzpeO-gm26w"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_y8T-ICSXEe2gzpeO-gm26w" name="" memberEnd="_y8T-ISSXEe2gzpeO-gm26w _y8Hw4CSXEe2gzpeO-gm26w">
+        <ownedEnd xmi:id="_y8T-ISSXEe2gzpeO-gm26w" name="" type="_y7VtwCSXEe2gzpeO-gm26w" association="_y8T-ICSXEe2gzpeO-gm26w"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_y8UlMSSXEe2gzpeO-gm26w" name="" memberEnd="_y8UlMiSXEe2gzpeO-gm26w _y8IX8SSXEe2gzpeO-gm26w">
+        <ownedEnd xmi:id="_y8UlMiSXEe2gzpeO-gm26w" name="" type="_y7VtwCSXEe2gzpeO-gm26w" association="_y8UlMSSXEe2gzpeO-gm26w"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_TmLoICTsEe2iSKMJvX8wZw" name="PanelesScroll">
+        <ownedAttribute xmi:id="_TnOJ8CTsEe2iSKMJvX8wZw" name="panelIzq" type="_TnGOIiTsEe2iSKMJvX8wZw" isReadOnly="true" association="_TnP_ICTsEe2iSKMJvX8wZw"/>
+        <ownedAttribute xmi:id="_TnOJ8STsEe2iSKMJvX8wZw" name="panelDer" type="_TnGOIiTsEe2iSKMJvX8wZw" isReadOnly="true" association="_TnQmMSTsEe2iSKMJvX8wZw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TnPYECTsEe2iSKMJvX8wZw" name="panelDerecho" specification="_TnMUwCTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_TnPYESTsEe2iSKMJvX8wZw" name="contenidoDer" type="_TnGOICTsEe2iSKMJvX8wZw"/>
+          <language>java</language>
+          <body>panelDer = new ScrollPane();&#xD;
+		panelDer.setContent(contenidoDer);&#xD;
+		panelDer.setFitToWidth(true);&#xD;
+		panelDer.setHbarPolicy(ScrollBarPolicy.NEVER);&#xD;
+		panelDer.setPrefWidth(670);&#xD;
+		panelDer.setStyle(&quot;-fx-background: rgb(19,28,70)&quot;);&#xD;
+		panelDer.setPannable(true);&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TnPYEiTsEe2iSKMJvX8wZw" name="ajusteDesplDer" specification="_TnM70CTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_TnPYEyTsEe2iSKMJvX8wZw" name="contenidoDer" type="_TnIqYSTsEe2iSKMJvX8wZw"/>
+          <language>java</language>
+          <body>panelDer.vvalueProperty().bind(new ObservableValue&lt;Number>() {&#xD;
+&#xD;
+			@Override&#xD;
+			public void addListener(InvalidationListener event) {&#xD;
+				panelDer.vvalueProperty().bind(contenidoDer.heightProperty());&#xD;
+				&#xD;
+			}&#xD;
+&#xD;
+			@Override&#xD;
+			public void removeListener(InvalidationListener arg0) {&#xD;
+				&#xD;
+			}&#xD;
+&#xD;
+			@Override&#xD;
+			public void addListener(ChangeListener&lt;? super Number> arg0) {&#xD;
+				&#xD;
+			}&#xD;
+&#xD;
+			@Override&#xD;
+			public Number getValue() {&#xD;
+				return 2;&#xD;
+			}&#xD;
+&#xD;
+			@Override&#xD;
+			public void removeListener(ChangeListener&lt;? super Number> arg0) {&#xD;
+				&#xD;
+			}&#xD;
+		});&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_TmNdUCTsEe2iSKMJvX8wZw" name="PanelesScroll">
+          <eAnnotations xmi:id="_TmNdUSTsEe2iSKMJvX8wZw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_TmNdUiTsEe2iSKMJvX8wZw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_TmQgoCTsEe2iSKMJvX8wZw" type="_TmLoICTsEe2iSKMJvX8wZw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_TnMUwCTsEe2iSKMJvX8wZw" name="panelDerecho" method="_TnPYECTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_TnMUwSTsEe2iSKMJvX8wZw" name="contenidoDer" type="_TnGOICTsEe2iSKMJvX8wZw"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_TnM70CTsEe2iSKMJvX8wZw" name="ajusteDesplDer" method="_TnPYEiTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_TnM70STsEe2iSKMJvX8wZw" name="contenidoDer" type="_TnIqYSTsEe2iSKMJvX8wZw"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_TnP_ICTsEe2iSKMJvX8wZw" name="" memberEnd="_TnP_ISTsEe2iSKMJvX8wZw _TnOJ8CTsEe2iSKMJvX8wZw">
+        <ownedEnd xmi:id="_TnP_ISTsEe2iSKMJvX8wZw" name="" type="_TmLoICTsEe2iSKMJvX8wZw" association="_TnP_ICTsEe2iSKMJvX8wZw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_TnQmMSTsEe2iSKMJvX8wZw" name="" memberEnd="_TnQmMiTsEe2iSKMJvX8wZw _TnOJ8STsEe2iSKMJvX8wZw">
+        <ownedEnd xmi:id="_TnQmMiTsEe2iSKMJvX8wZw" name="" type="_TmLoICTsEe2iSKMJvX8wZw" association="_TnQmMSTsEe2iSKMJvX8wZw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_VEW2UCTsEe2iSKMJvX8wZw" name="Users">
+        <ownedAttribute xmi:id="_VFSDYCTsEe2iSKMJvX8wZw" name="contactosId" type="_VFPnIyTsEe2iSKMJvX8wZw" isOrdered="true" isReadOnly="true" association="_VFVtwCTsEe2iSKMJvX8wZw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VFSDYSTsEe2iSKMJvX8wZw" value="*"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_VFSDYiTsEe2iSKMJvX8wZw" value="new ArrayList&lt;>()"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_VFSqcCTsEe2iSKMJvX8wZw" name="contactosImg" type="_y8BqQSSXEe2gzpeO-gm26w" isOrdered="true" association="_VFWU0STsEe2iSKMJvX8wZw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VFSqcSTsEe2iSKMJvX8wZw" value="*"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_VFSqciTsEe2iSKMJvX8wZw" value="new ArrayList&lt;Image>()"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_VFSqcyTsEe2iSKMJvX8wZw" name="usuarios" type="_y8BqQSSXEe2gzpeO-gm26w" association="_VFW74STsEe2iSKMJvX8wZw">
+          <qualifier xmi:id="_VFTRgCTsEe2iSKMJvX8wZw">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </qualifier>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_VFTRgSTsEe2iSKMJvX8wZw" name="imgCircle" visibility="private" type="_y8DfcSSXEe2gzpeO-gm26w" association="_VFW75CTsEe2iSKMJvX8wZw"/>
+        <ownedAttribute xmi:id="_VFT4kCTsEe2iSKMJvX8wZw" name="disponibilidad" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <qualifier xmi:id="_VFT4kyTsEe2iSKMJvX8wZw">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </qualifier>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_VFT4kSTsEe2iSKMJvX8wZw" value="new TreeMap&lt;Integer, String>()"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VFUfoCTsEe2iSKMJvX8wZw" name="Users" specification="_VEYrgCTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_VFUfoSTsEe2iSKMJvX8wZw" type="_VEW2UCTsEe2iSKMJvX8wZw" direction="return"/>
+          <language>java</language>
+          <body>this.usuarios = new TreeMap&lt;String, Image>();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VFUfoiTsEe2iSKMJvX8wZw" name="listaUsuarios" specification="_VEZ5oCTsEe2iSKMJvX8wZw">
+          <language>java</language>
+          <body>usuarios.put(&quot;Jhon&quot;, new Image(&quot;file:ft1.jpg&quot;));&#xD;
+		usuarios.put(&quot;Diego&quot;, new Image(&quot;file:ft2.jpg&quot;));&#xD;
+		usuarios.put(&quot;William&quot;, new Image(&quot;file:ft3.jpg&quot;));&#xD;
+		usuarios.put(&quot;Oscar&quot;,new Image(&quot;file:ft4.jpg&quot;));&#xD;
+		usuarios.put(&quot;Franklin&quot;, new Image(&quot;file:ft5.jpg&quot;));&#xD;
+		usuarios.put(&quot;Alejandro&quot;, new Image(&quot;file:ft6.jpg&quot;));&#xD;
+		usuarios.put(&quot;Anthony&quot;, new Image(&quot;file:ft7.jpg&quot;));&#xD;
+		usuarios.put(&quot;Emiliano&quot;, new Image(&quot;file:ft8.jpg&quot;));&#xD;
+		usuarios.put(&quot;Paula&quot;, new Image(&quot;file:ft9.jpg&quot;));&#xD;
+		usuarios.put(&quot;Azucena&quot;, new Image(&quot;file:ft10.jpg&quot;));&#xD;
+		usuarios.put(&quot;Tifany&quot;, new Image(&quot;file:ft11.jpg&quot;));&#xD;
+		usuarios.put(&quot;Nicole&quot;, new Image(&quot;file:ft12.jpg&quot;));&#xD;
+		usuarios.put(&quot;Omar&quot;, new Image(&quot;file:ft13.jpg&quot;));&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VFUfoyTsEe2iSKMJvX8wZw" name="validacion" specification="_VEagsCTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_VFUfpCTsEe2iSKMJvX8wZw" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_VFUfpSTsEe2iSKMJvX8wZw" type="_y8DfcSSXEe2gzpeO-gm26w" direction="return"/>
+          <language>java</language>
+          <body>for(Entry&lt;String, Image> ids: usuarios.entrySet()) {&#xD;
+			if(ids.getKey().equals(id)) {&#xD;
+				Image foto = new Image(ids.getValue().getUrl());&#xD;
+				imgCircle = new Circle(20);&#xD;
+				imgCircle.setStroke(Color.TRANSPARENT);&#xD;
+				imgCircle.setFill(new ImagePattern(foto));			        &#xD;
+				imgCircle.setSmooth(true);&#xD;
+			}&#xD;
+		}&#xD;
+		&#xD;
+		return imgCircle;			&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VFUfpiTsEe2iSKMJvX8wZw" name="getDisponibilidad" specification="_VEbHwCTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_VFUfpyTsEe2iSKMJvX8wZw" type="_VFOZACTsEe2iSKMJvX8wZw" direction="return"/>
+          <language>java</language>
+          <body>disponibilidad.put(1, &quot;Activo&quot;);&#xD;
+		disponibilidad.put(2, &quot;Inactivo&quot;);&#xD;
+		disponibilidad.put(3, &quot;Activo&quot;);&#xD;
+		disponibilidad.put(4, &quot;Activo&quot;);&#xD;
+		disponibilidad.put(5, &quot;Inactivo&quot;);&#xD;
+		disponibilidad.put(6, &quot;Inactivo&quot;);&#xD;
+		disponibilidad.put(7, &quot;Activo&quot;);&#xD;
+		disponibilidad.put(8, &quot;Activo&quot;);&#xD;
+		disponibilidad.put(9, &quot;Inactivo&quot;);&#xD;
+		disponibilidad.put(10, &quot;Inactivo&quot;);&#xD;
+		disponibilidad.put(11, &quot;Inactivo&quot;);&#xD;
+		disponibilidad.put(12, &quot;Activo&quot;);&#xD;
+		&#xD;
+		return disponibilidad;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_VEYrgCTsEe2iSKMJvX8wZw" name="Users" method="_VFUfoCTsEe2iSKMJvX8wZw">
+          <eAnnotations xmi:id="_VEZSkCTsEe2iSKMJvX8wZw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_VEZSkSTsEe2iSKMJvX8wZw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_VEZSkiTsEe2iSKMJvX8wZw" type="_VEW2UCTsEe2iSKMJvX8wZw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_VEZ5oCTsEe2iSKMJvX8wZw" name="listaUsuarios" method="_VFUfoiTsEe2iSKMJvX8wZw"/>
+        <ownedOperation xmi:id="_VEagsCTsEe2iSKMJvX8wZw" name="validacion" method="_VFUfoyTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_VEagsSTsEe2iSKMJvX8wZw" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_VFQOMSTsEe2iSKMJvX8wZw" type="_y8DfcSSXEe2gzpeO-gm26w" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_VEbHwCTsEe2iSKMJvX8wZw" name="getDisponibilidad" method="_VFUfpiTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_VFRcUCTsEe2iSKMJvX8wZw" type="_VFOZACTsEe2iSKMJvX8wZw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_VFVtwCTsEe2iSKMJvX8wZw" name="" memberEnd="_VFVtwSTsEe2iSKMJvX8wZw _VFSDYCTsEe2iSKMJvX8wZw">
+        <ownedEnd xmi:id="_VFVtwSTsEe2iSKMJvX8wZw" name="" type="_VEW2UCTsEe2iSKMJvX8wZw" association="_VFVtwCTsEe2iSKMJvX8wZw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_VFWU0STsEe2iSKMJvX8wZw" name="" memberEnd="_VFWU0iTsEe2iSKMJvX8wZw _VFSqcCTsEe2iSKMJvX8wZw">
+        <ownedEnd xmi:id="_VFWU0iTsEe2iSKMJvX8wZw" name="" type="_VEW2UCTsEe2iSKMJvX8wZw" association="_VFWU0STsEe2iSKMJvX8wZw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_VFW74STsEe2iSKMJvX8wZw" name="" memberEnd="_VFW74iTsEe2iSKMJvX8wZw _VFSqcyTsEe2iSKMJvX8wZw">
+        <ownedEnd xmi:id="_VFW74iTsEe2iSKMJvX8wZw" name="" type="_VEW2UCTsEe2iSKMJvX8wZw" association="_VFW74STsEe2iSKMJvX8wZw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_VFW75CTsEe2iSKMJvX8wZw" name="" memberEnd="_VFW75STsEe2iSKMJvX8wZw _VFTRgSTsEe2iSKMJvX8wZw">
+        <ownedEnd xmi:id="_VFW75STsEe2iSKMJvX8wZw" name="" type="_VEW2UCTsEe2iSKMJvX8wZw" association="_VFW75CTsEe2iSKMJvX8wZw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WQt7wCTsEe2iSKMJvX8wZw" name="WinChat">
+        <ownedAttribute xmi:id="_WRuoYCTsEe2iSKMJvX8wZw" name="chat" type="_WRpI0STsEe2iSKMJvX8wZw" isReadOnly="true" association="_WR0H8CTsEe2iSKMJvX8wZw"/>
+        <ownedAttribute xmi:id="_WRuoYSTsEe2iSKMJvX8wZw" name="enviar" type="_WRn6sCTsEe2iSKMJvX8wZw" isReadOnly="true" association="_WR0vASTsEe2iSKMJvX8wZw"/>
+        <ownedAttribute xmi:id="_WRuoYiTsEe2iSKMJvX8wZw" name="globoMsj" visibility="private" type="_WRohwSTsEe2iSKMJvX8wZw" association="_WR1WECTsEe2iSKMJvX8wZw"/>
+        <ownedAttribute xmi:id="_WRySxiTsEe2iSKMJvX8wZw" name="contactos" visibility="private" type="_WRohwSTsEe2iSKMJvX8wZw" association="_WR1WEyTsEe2iSKMJvX8wZw"/>
+        <ownedAttribute xmi:id="_WRy50iTsEe2iSKMJvX8wZw" name="mensajeUser" visibility="private" type="_WRohwSTsEe2iSKMJvX8wZw" association="_WR1WFiTsEe2iSKMJvX8wZw"/>
+        <ownedAttribute xmi:id="_WRy51STsEe2iSKMJvX8wZw" name="hora" visibility="private" type="_WRohwSTsEe2iSKMJvX8wZw" association="_WR19ISTsEe2iSKMJvX8wZw"/>
+        <ownedAttribute xmi:id="_WRzg4iTsEe2iSKMJvX8wZw" name="usuarioId" visibility="private" type="_WRohwSTsEe2iSKMJvX8wZw" association="_WR19JCTsEe2iSKMJvX8wZw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WRxEoCTsEe2iSKMJvX8wZw" name="getGloboMsj" specification="_WQy0QSTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WRxEoSTsEe2iSKMJvX8wZw" type="_WRohwSTsEe2iSKMJvX8wZw" direction="return"/>
+          <language>java</language>
+          <body>return globoMsj;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WRxrsCTsEe2iSKMJvX8wZw" name="getContactos" specification="_WQzbUCTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WRxrsSTsEe2iSKMJvX8wZw" type="_WRohwSTsEe2iSKMJvX8wZw" direction="return"/>
+          <language>java</language>
+          <body>return contactos;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WRxrsiTsEe2iSKMJvX8wZw" name="getMensajeUser" specification="_WQzbUSTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WRxrsyTsEe2iSKMJvX8wZw" type="_WRohwSTsEe2iSKMJvX8wZw" direction="return"/>
+          <language>java</language>
+          <body>return mensajeUser;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WRxrtCTsEe2iSKMJvX8wZw" name="getHora" specification="_WQ0CYCTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WRxrtSTsEe2iSKMJvX8wZw" type="_WRohwSTsEe2iSKMJvX8wZw" direction="return"/>
+          <language>java</language>
+          <body>return hora;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WRxrtiTsEe2iSKMJvX8wZw" name="getUsuarioId" specification="_WQ0CYSTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WRxrtyTsEe2iSKMJvX8wZw" type="_WRohwSTsEe2iSKMJvX8wZw" direction="return"/>
+          <language>java</language>
+          <body>return usuarioId;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WRxruCTsEe2iSKMJvX8wZw" name="chat" specification="_WQ0pcCTsEe2iSKMJvX8wZw">
+          <language>java</language>
+          <body>chat = new TextField();&#xD;
+		chat.setFont(Font.font(&quot;Tiny&quot;, FontWeight.NORMAL, 14));&#xD;
+		chat.setMinSize(600, 10);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WRxruSTsEe2iSKMJvX8wZw" name="enviar" specification="_WQ0pcSTsEe2iSKMJvX8wZw">
+          <language>java</language>
+          <body>Icon icono = new ImageIcon(&quot;C:\\Users\\HP\\OneDrive\\Universidad\\CI 2022-2023\\PAG\\Aplicacion_chat\\3d7a444d-fd14-4b20-a550-fdff1b6fcca3.jpg&quot;);&#xD;
+		enviar = new Button(&quot;send&quot;);&#xD;
+		enviar.setFont(Font.font(&quot;Tiny&quot;, FontWeight.BOLD, 14));&#xD;
+		enviar.setMinSize(20, 10);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WRxruiTsEe2iSKMJvX8wZw" name="globoMsjtest" specification="_WQ13kCTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WRxruyTsEe2iSKMJvX8wZw" name="mensaje">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WRxrvCTsEe2iSKMJvX8wZw" name="color">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>globoMsj = new Label(mensaje);&#xD;
+		globoMsj.setTextAlignment(TextAlignment.JUSTIFY);&#xD;
+		globoMsj.setWrapText(true);&#xD;
+		globoMsj.setMaxWidth(350);&#xD;
+		globoMsj.setFont(Font.font(&quot;Tiny&quot;, FontWeight.NORMAL, 12));&#xD;
+		globoMsj.setStyle(color+&quot;; -fx-background-radius: 8px;&quot;);&#xD;
+		globoMsj.setPadding(new Insets(6));&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WRxrvSTsEe2iSKMJvX8wZw" name="smspos" specification="_WRuBUCTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WRxrviTsEe2iSKMJvX8wZw" name="cir" type="_y8DfcSSXEe2gzpeO-gm26w"/>
+          <ownedParameter xmi:id="_WRxrvyTsEe2iSKMJvX8wZw" name="getglobo" type="_WRohwSTsEe2iSKMJvX8wZw"/>
+          <ownedParameter xmi:id="_WRxrwCTsEe2iSKMJvX8wZw" name="pos">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WRxrwSTsEe2iSKMJvX8wZw" type="_WRpv4STsEe2iSKMJvX8wZw" direction="return"/>
+          <language>java</language>
+          <body>HBox mensajes = new HBox (20);&#xD;
+	mensajes.getChildren().addAll(getglobo, cir);&#xD;
+	mensajes.setPrefWidth(655);&#xD;
+	if (pos == true) &#xD;
+		mensajes.setAlignment(Pos.TOP_RIGHT);&#xD;
+	&#xD;
+	mensajes.setPrefWidth(655);&#xD;
+	mensajes.setPadding(new Insets(20, 0, 10, 10));&#xD;
+	return mensajes;&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WRxrwiTsEe2iSKMJvX8wZw" name="contactos" specification="_WQ2eoCTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WRxrwyTsEe2iSKMJvX8wZw" name="contacto">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>contactos = new Label(contacto);&#xD;
+		contactos.setFont(Font.font(&quot;Tiny&quot;, FontWeight.BOLD, 14));&#xD;
+		contactos.setStyle(&quot;-fx-text-fill: white&quot;);&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WRySwCTsEe2iSKMJvX8wZw" name="mensajeUser" specification="_WQ3swCTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WRySwSTsEe2iSKMJvX8wZw" name="contenido">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>mensajeUser = new Label(contenido);&#xD;
+		mensajeUser.setFont(Font.font(&quot;Tiny&quot;, FontWeight.NORMAL, 12));	&#xD;
+		mensajeUser.setMaxWidth(170);&#xD;
+		mensajeUser.setStyle(&quot;-fx-text-fill: white&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WRySwiTsEe2iSKMJvX8wZw" name="hora" specification="_WQ4T0CTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WRySwyTsEe2iSKMJvX8wZw" name="fHora">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>hora = new Label(fHora);&#xD;
+		hora.setFont(Font.font(&quot;Tiny&quot;, FontWeight.NORMAL, 12));&#xD;
+		hora.setStyle(&quot;-fx-text-fill: white&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WRySxCTsEe2iSKMJvX8wZw" name="usuarioId" specification="_WQ464CTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WRySxSTsEe2iSKMJvX8wZw" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>usuarioId = new Label(id);&#xD;
+		usuarioId.setFont(Font.font(&quot;Tiny&quot;, FontWeight.BOLD, 16));	&#xD;
+		usuarioId.setStyle(&quot;-fx-text-fill: white&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_WQxmICTsEe2iSKMJvX8wZw" name="WinChat">
+          <eAnnotations xmi:id="_WQyNMCTsEe2iSKMJvX8wZw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_WQyNMSTsEe2iSKMJvX8wZw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_WQy0QCTsEe2iSKMJvX8wZw" type="_WQt7wCTsEe2iSKMJvX8wZw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WQy0QSTsEe2iSKMJvX8wZw" name="getGloboMsj" method="_WRxEoCTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WRtaQCTsEe2iSKMJvX8wZw" type="_WRohwSTsEe2iSKMJvX8wZw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WQzbUCTsEe2iSKMJvX8wZw" name="getContactos" method="_WRxrsCTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WRtaQSTsEe2iSKMJvX8wZw" type="_WRohwSTsEe2iSKMJvX8wZw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WQzbUSTsEe2iSKMJvX8wZw" name="getMensajeUser" method="_WRxrsiTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WRtaQiTsEe2iSKMJvX8wZw" type="_WRohwSTsEe2iSKMJvX8wZw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WQ0CYCTsEe2iSKMJvX8wZw" name="getHora" method="_WRxrtCTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WRtaQyTsEe2iSKMJvX8wZw" type="_WRohwSTsEe2iSKMJvX8wZw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WQ0CYSTsEe2iSKMJvX8wZw" name="getUsuarioId" method="_WRxrtiTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WRtaRCTsEe2iSKMJvX8wZw" type="_WRohwSTsEe2iSKMJvX8wZw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WQ0pcCTsEe2iSKMJvX8wZw" name="chat" method="_WRxruCTsEe2iSKMJvX8wZw"/>
+        <ownedOperation xmi:id="_WQ0pcSTsEe2iSKMJvX8wZw" name="enviar" method="_WRxruSTsEe2iSKMJvX8wZw"/>
+        <ownedOperation xmi:id="_WQ13kCTsEe2iSKMJvX8wZw" name="globoMsjtest" method="_WRxruiTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WQ13kSTsEe2iSKMJvX8wZw" name="mensaje">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WQ13kiTsEe2iSKMJvX8wZw" name="color">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WQ2eoCTsEe2iSKMJvX8wZw" name="contactos" method="_WRxrwiTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WQ3FsCTsEe2iSKMJvX8wZw" name="contacto">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WQ3swCTsEe2iSKMJvX8wZw" name="mensajeUser" method="_WRySwCTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WQ3swSTsEe2iSKMJvX8wZw" name="contenido">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WQ4T0CTsEe2iSKMJvX8wZw" name="hora" method="_WRySwiTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WQ4T0STsEe2iSKMJvX8wZw" name="fHora">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WQ464CTsEe2iSKMJvX8wZw" name="usuarioId" method="_WRySxCTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WQ464STsEe2iSKMJvX8wZw" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_WRuBUCTsEe2iSKMJvX8wZw" name="smspos" method="_WRxrvSTsEe2iSKMJvX8wZw">
+          <ownedParameter xmi:id="_WRuBUSTsEe2iSKMJvX8wZw" name="cir" type="_y8DfcSSXEe2gzpeO-gm26w"/>
+          <ownedParameter xmi:id="_WRuBUiTsEe2iSKMJvX8wZw" name="getglobo" type="_WRohwSTsEe2iSKMJvX8wZw"/>
+          <ownedParameter xmi:id="_WRuBUyTsEe2iSKMJvX8wZw" name="pos">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_WRuBVCTsEe2iSKMJvX8wZw" type="_WRpv4STsEe2iSKMJvX8wZw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_WR0H8CTsEe2iSKMJvX8wZw" name="" memberEnd="_WR0H8STsEe2iSKMJvX8wZw _WRuoYCTsEe2iSKMJvX8wZw">
+        <ownedEnd xmi:id="_WR0H8STsEe2iSKMJvX8wZw" name="" type="_WQt7wCTsEe2iSKMJvX8wZw" association="_WR0H8CTsEe2iSKMJvX8wZw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_WR0vASTsEe2iSKMJvX8wZw" name="" memberEnd="_WR0vAiTsEe2iSKMJvX8wZw _WRuoYSTsEe2iSKMJvX8wZw">
+        <ownedEnd xmi:id="_WR0vAiTsEe2iSKMJvX8wZw" name="" type="_WQt7wCTsEe2iSKMJvX8wZw" association="_WR0vASTsEe2iSKMJvX8wZw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_WR1WECTsEe2iSKMJvX8wZw" name="" memberEnd="_WR1WESTsEe2iSKMJvX8wZw _WRuoYiTsEe2iSKMJvX8wZw">
+        <ownedEnd xmi:id="_WR1WESTsEe2iSKMJvX8wZw" name="" type="_WQt7wCTsEe2iSKMJvX8wZw" association="_WR1WECTsEe2iSKMJvX8wZw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_WR1WEyTsEe2iSKMJvX8wZw" name="" memberEnd="_WR1WFCTsEe2iSKMJvX8wZw _WRySxiTsEe2iSKMJvX8wZw">
+        <ownedEnd xmi:id="_WR1WFCTsEe2iSKMJvX8wZw" name="" type="_WQt7wCTsEe2iSKMJvX8wZw" association="_WR1WEyTsEe2iSKMJvX8wZw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_WR1WFiTsEe2iSKMJvX8wZw" name="" memberEnd="_WR1WFyTsEe2iSKMJvX8wZw _WRy50iTsEe2iSKMJvX8wZw">
+        <ownedEnd xmi:id="_WR1WFyTsEe2iSKMJvX8wZw" name="" type="_WQt7wCTsEe2iSKMJvX8wZw" association="_WR1WFiTsEe2iSKMJvX8wZw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_WR19ISTsEe2iSKMJvX8wZw" name="" memberEnd="_WR19IiTsEe2iSKMJvX8wZw _WRy51STsEe2iSKMJvX8wZw">
+        <ownedEnd xmi:id="_WR19IiTsEe2iSKMJvX8wZw" name="" type="_WQt7wCTsEe2iSKMJvX8wZw" association="_WR19ISTsEe2iSKMJvX8wZw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_WR19JCTsEe2iSKMJvX8wZw" name="" memberEnd="_WR19JSTsEe2iSKMJvX8wZw _WRzg4iTsEe2iSKMJvX8wZw">
+        <ownedEnd xmi:id="_WR19JSTsEe2iSKMJvX8wZw" name="" type="_WQt7wCTsEe2iSKMJvX8wZw" association="_WR19JCTsEe2iSKMJvX8wZw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Yl2nICTsEe2iSKMJvX8wZw" name="WinLogin">
+        <ownedAttribute xmi:id="_YmVIQCTsEe2iSKMJvX8wZw" name="user" type="_WRpI0STsEe2iSKMJvX8wZw" isReadOnly="true" association="_YmWWYCTsEe2iSKMJvX8wZw"/>
+        <ownedAttribute xmi:id="_YmVIQSTsEe2iSKMJvX8wZw" name="clave" type="_YmTTEiTsEe2iSKMJvX8wZw" isReadOnly="true" association="_YmXkgCTsEe2iSKMJvX8wZw"/>
+        <ownedAttribute xmi:id="_YmVIQiTsEe2iSKMJvX8wZw" name="login" type="_WRn6sCTsEe2iSKMJvX8wZw" isReadOnly="true" association="_YmXkgyTsEe2iSKMJvX8wZw"/>
+        <ownedAttribute xmi:id="_YmVIQyTsEe2iSKMJvX8wZw" name="titulo" type="_WRohwSTsEe2iSKMJvX8wZw" isReadOnly="true" association="_YmYLkSTsEe2iSKMJvX8wZw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YmVvUCTsEe2iSKMJvX8wZw" name="userText" specification="_Yl64kCTsEe2iSKMJvX8wZw">
+          <language>java</language>
+          <body>user = new TextField();&#xD;
+		user.setFont(Font.font(&quot;Tiny&quot;, FontWeight.NORMAL, 14));&#xD;
+		user.setPromptText(&quot;User&quot;);&#xD;
+		user.setFocusTraversable(false);&#xD;
+		user.setMaxWidth(200);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YmVvUSTsEe2iSKMJvX8wZw" name="clavePass" specification="_Yl7foCTsEe2iSKMJvX8wZw">
+          <language>java</language>
+          <body>clave = new PasswordField();&#xD;
+		clave.setFont(Font.font(&quot;Tiny&quot;, FontWeight.NORMAL, 14));&#xD;
+		clave.setPromptText(&quot;Password&quot;);&#xD;
+		clave.setFocusTraversable(false);&#xD;
+		clave.setMaxWidth(200);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YmVvUiTsEe2iSKMJvX8wZw" name="loginButton" specification="_Yl7foSTsEe2iSKMJvX8wZw">
+          <language>java</language>
+          <body>login = new Button(&quot;Iniciar sesión&quot;);&#xD;
+		login.setFont(Font.font(&quot;Tiny&quot;, FontWeight.NORMAL, 14));&#xD;
+		&#xD;
+		login.setMinHeight(30);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YmVvUyTsEe2iSKMJvX8wZw" name="tituloLabel" specification="_Yl7foiTsEe2iSKMJvX8wZw">
+          <language>java</language>
+          <body>titulo = new Label(&quot;Discord Penguin&quot;);&#xD;
+		titulo.setFont(Font.font(&quot;Tiny&quot;, FontWeight.EXTRA_BOLD, 40));&#xD;
+		titulo.setStyle(&quot;-fx-text-fill: white&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Yl4cUCTsEe2iSKMJvX8wZw" name="WinLogin">
+          <eAnnotations xmi:id="_Yl5DYCTsEe2iSKMJvX8wZw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Yl5DYSTsEe2iSKMJvX8wZw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Yl5qcCTsEe2iSKMJvX8wZw" type="_Yl2nICTsEe2iSKMJvX8wZw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Yl64kCTsEe2iSKMJvX8wZw" name="userText" method="_YmVvUCTsEe2iSKMJvX8wZw"/>
+        <ownedOperation xmi:id="_Yl7foCTsEe2iSKMJvX8wZw" name="clavePass" method="_YmVvUSTsEe2iSKMJvX8wZw"/>
+        <ownedOperation xmi:id="_Yl7foSTsEe2iSKMJvX8wZw" name="loginButton" method="_YmVvUiTsEe2iSKMJvX8wZw"/>
+        <ownedOperation xmi:id="_Yl7foiTsEe2iSKMJvX8wZw" name="tituloLabel" method="_YmVvUyTsEe2iSKMJvX8wZw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_YmWWYCTsEe2iSKMJvX8wZw" name="" memberEnd="_YmWWYSTsEe2iSKMJvX8wZw _YmVIQCTsEe2iSKMJvX8wZw">
+        <ownedEnd xmi:id="_YmWWYSTsEe2iSKMJvX8wZw" name="" type="_Yl2nICTsEe2iSKMJvX8wZw" association="_YmWWYCTsEe2iSKMJvX8wZw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_YmXkgCTsEe2iSKMJvX8wZw" name="" memberEnd="_YmXkgSTsEe2iSKMJvX8wZw _YmVIQSTsEe2iSKMJvX8wZw">
+        <ownedEnd xmi:id="_YmXkgSTsEe2iSKMJvX8wZw" name="" type="_Yl2nICTsEe2iSKMJvX8wZw" association="_YmXkgCTsEe2iSKMJvX8wZw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_YmXkgyTsEe2iSKMJvX8wZw" name="" memberEnd="_YmXkhCTsEe2iSKMJvX8wZw _YmVIQiTsEe2iSKMJvX8wZw">
+        <ownedEnd xmi:id="_YmXkhCTsEe2iSKMJvX8wZw" name="" type="_Yl2nICTsEe2iSKMJvX8wZw" association="_YmXkgyTsEe2iSKMJvX8wZw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_YmYLkSTsEe2iSKMJvX8wZw" name="" memberEnd="_YmYLkiTsEe2iSKMJvX8wZw _YmVIQyTsEe2iSKMJvX8wZw">
+        <ownedEnd xmi:id="_YmYLkiTsEe2iSKMJvX8wZw" name="" type="_Yl2nICTsEe2iSKMJvX8wZw" association="_YmYLkSTsEe2iSKMJvX8wZw"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_VELQICTsEe2iSKMJvX8wZw" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_VEL3MCTsEe2iSKMJvX8wZw" name="chat">
+        <packagedElement xmi:type="uml:Package" xmi:id="_VEL3MSTsEe2iSKMJvX8wZw" name="repositorio">
+          <packagedElement xmi:type="uml:Class" xmi:id="_VFPnIyTsEe2iSKMJvX8wZw" name="RepositoryMessages"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WQcO8CTsEe2iSKMJvX8wZw" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_WQc2ACTsEe2iSKMJvX8wZw" name="swing">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_WRk3YCTsEe2iSKMJvX8wZw" name="Icon"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WRmFgCTsEe2iSKMJvX8wZw" name="ImageIcon"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_y7WU0CSXEe2gzpeO-gm26w">
+      <eAnnotations xmi:id="_y7Z_MCSXEe2gzpeO-gm26w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_y7gs4CSXEe2gzpeO-gm26w" base_Element="_y7fewCSXEe2gzpeO-gm26w"/>
+  <UMLLabProfile:Reference xmi:id="_y79_4CSXEe2gzpeO-gm26w" base_Element="_y79Y0CSXEe2gzpeO-gm26w"/>
+  <UMLLabProfile:Reference xmi:id="_y8AcICSXEe2gzpeO-gm26w" base_Element="_y7_OACSXEe2gzpeO-gm26w"/>
+  <UMLLabProfile:Reference xmi:id="_y8BqQCSXEe2gzpeO-gm26w" base_Element="_y8AcISSXEe2gzpeO-gm26w"/>
+  <UMLLabProfile:Reference xmi:id="_y8CRUCSXEe2gzpeO-gm26w" base_Element="_y8BqQSSXEe2gzpeO-gm26w"/>
+  <UMLLabProfile:Reference xmi:id="_y8C4YCSXEe2gzpeO-gm26w" base_Element="_y8CRUSSXEe2gzpeO-gm26w"/>
+  <UMLLabProfile:Reference xmi:id="_y8DfcCSXEe2gzpeO-gm26w" base_Element="_y8C4YSSXEe2gzpeO-gm26w"/>
+  <UMLLabProfile:Reference xmi:id="_y8DfciSXEe2gzpeO-gm26w" base_Element="_y8DfcSSXEe2gzpeO-gm26w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_y8IX8CSXEe2gzpeO-gm26w" base_Element="_y8Hw4CSXEe2gzpeO-gm26w"/>
+  <UMLLabProfile:Reference xmi:id="_y8UlMCSXEe2gzpeO-gm26w" base_Element="_y8T-ICSXEe2gzpeO-gm26w"/>
+  <UMLLabProfile:Reference xmi:id="_y8VMQCSXEe2gzpeO-gm26w" base_Element="_y8UlMSSXEe2gzpeO-gm26w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TmPSgCTsEe2iSKMJvX8wZw" base_Element="_TmNdUCTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_TnEY8CTsEe2iSKMJvX8wZw" base_Element="_TnDx4CTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_TnFnECTsEe2iSKMJvX8wZw" base_Element="_TnFAACTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_TnFnEiTsEe2iSKMJvX8wZw" base_Element="_TnFnESTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_TnGOISTsEe2iSKMJvX8wZw" base_Element="_TnGOICTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_TnG1MCTsEe2iSKMJvX8wZw" base_Element="_TnGOIiTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_TnHcQCTsEe2iSKMJvX8wZw" base_Element="_TnG1MSTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_TnIqYCTsEe2iSKMJvX8wZw" base_Element="_TnHcQSTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_TnJ4gCTsEe2iSKMJvX8wZw" base_Element="_TnIqYSTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_TnQmMCTsEe2iSKMJvX8wZw" base_Element="_TnP_ICTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_TnRNQCTsEe2iSKMJvX8wZw" base_Element="_TnQmMSTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Generics xmi:id="_VEfZMCTsEe2iSKMJvX8wZw" genericsValue="Integer, String" base_Element="_VEbHwCTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_VFPAECTsEe2iSKMJvX8wZw" base_Element="_VFOZACTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_VFPnICTsEe2iSKMJvX8wZw" base_Element="_VFPAESTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_VFPnIiTsEe2iSKMJvX8wZw" base_Element="_VFPnISTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_VFQOMCTsEe2iSKMJvX8wZw" base_Element="_VFPnIyTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VFTRgiTsEe2iSKMJvX8wZw" base_Element="_VFTRgSTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VFT4kiTsEe2iSKMJvX8wZw" base_Element="_VFT4kCTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_VFWU0CTsEe2iSKMJvX8wZw" base_Element="_VFVtwCTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_VFW74CTsEe2iSKMJvX8wZw" base_Element="_VFWU0STsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_VFW74yTsEe2iSKMJvX8wZw" base_Element="_VFW74STsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_VFXi8CTsEe2iSKMJvX8wZw" base_Element="_VFW75CTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WQyNMiTsEe2iSKMJvX8wZw" base_Element="_WQxmICTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_WRlecCTsEe2iSKMJvX8wZw" base_Element="_WRk3YCTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_WRmFgSTsEe2iSKMJvX8wZw" base_Element="_WRmFgCTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_WRmskCTsEe2iSKMJvX8wZw" base_Element="_WRmFgiTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_WRnToSTsEe2iSKMJvX8wZw" base_Element="_WRnToCTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_WRohwCTsEe2iSKMJvX8wZw" base_Element="_WRn6sCTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_WRpI0CTsEe2iSKMJvX8wZw" base_Element="_WRohwSTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_WRpv4CTsEe2iSKMJvX8wZw" base_Element="_WRpI0STsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_WRqW8CTsEe2iSKMJvX8wZw" base_Element="_WRpv4STsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_WRq-ACTsEe2iSKMJvX8wZw" base_Element="_WRqW8STsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_WRq-AiTsEe2iSKMJvX8wZw" base_Element="_WRq-ASTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_WRrlECTsEe2iSKMJvX8wZw" base_Element="_WRq-AyTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_WRuoYyTsEe2iSKMJvX8wZw" base_Property="_WRuoYiTsEe2iSKMJvX8wZw" siblings="_WRySxiTsEe2iSKMJvX8wZw _WRy50iTsEe2iSKMJvX8wZw _WRy51STsEe2iSKMJvX8wZw _WRzg4iTsEe2iSKMJvX8wZw" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WRvPcCTsEe2iSKMJvX8wZw" base_Element="_WRuoYiTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_WRy50CTsEe2iSKMJvX8wZw" base_Property="_WRySxiTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WRy50STsEe2iSKMJvX8wZw" base_Element="_WRySxiTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_WRy50yTsEe2iSKMJvX8wZw" base_Property="_WRy50iTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WRy51CTsEe2iSKMJvX8wZw" base_Element="_WRy50iTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_WRzg4CTsEe2iSKMJvX8wZw" base_Property="_WRy51STsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WRzg4STsEe2iSKMJvX8wZw" base_Element="_WRy51STsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_WRzg4yTsEe2iSKMJvX8wZw" base_Property="_WRzg4iTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WRzg5CTsEe2iSKMJvX8wZw" base_Element="_WRzg4iTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_WR0vACTsEe2iSKMJvX8wZw" base_Element="_WR0H8CTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_WR0vAyTsEe2iSKMJvX8wZw" base_Element="_WR0vASTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_WR1WEiTsEe2iSKMJvX8wZw" base_Element="_WR1WECTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_WR1WFSTsEe2iSKMJvX8wZw" base_Element="_WR1WEyTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_WR19ICTsEe2iSKMJvX8wZw" base_Element="_WR1WFiTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_WR19IyTsEe2iSKMJvX8wZw" base_Element="_WR19ISTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_WR19JiTsEe2iSKMJvX8wZw" base_Element="_WR19JCTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yl5DYiTsEe2iSKMJvX8wZw" base_Element="_Yl4cUCTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_YmSsACTsEe2iSKMJvX8wZw" base_Element="_YmSE8CTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_YmSsAiTsEe2iSKMJvX8wZw" base_Element="_YmSsASTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_YmTTESTsEe2iSKMJvX8wZw" base_Element="_YmTTECTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_YmT6ICTsEe2iSKMJvX8wZw" base_Element="_YmTTEiTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_YmW9cCTsEe2iSKMJvX8wZw" base_Element="_YmWWYCTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_YmXkgiTsEe2iSKMJvX8wZw" base_Element="_YmXkgCTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_YmYLkCTsEe2iSKMJvX8wZw" base_Element="_YmXkgyTsEe2iSKMJvX8wZw"/>
+  <UMLLabProfile:Reference xmi:id="_YmYyoCTsEe2iSKMJvX8wZw" base_Element="_YmYLkSTsEe2iSKMJvX8wZw"/>
+</xmi:XMI>
